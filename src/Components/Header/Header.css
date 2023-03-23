@@ -1,0 +1,31 @@
+.header {
+  margin: 0 2.5rem;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerleft {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.links:hover{
+    color: aqua;
+    /* text-decoration: underline; */
+    scale: 1.15;
+}
+
+.header_icon{
+    width: 60px;
+    cursor: pointer;
+}
