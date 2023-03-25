@@ -21,7 +21,7 @@ const Card = ({ movie }) => {
           </SkeletonTheme>
         </div>
       ) : (
-        <Link to={`movie/${movie.id}`} style={{ textDecoration: "none" }}>
+        <Link to={`/movie/${movie.id}`} style={{ textDecoration: "none" }}>
           <div className="cards">
             <img
               className="cards__img"
