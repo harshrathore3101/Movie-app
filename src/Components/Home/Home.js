@@ -5,7 +5,7 @@ import { fetchFromApi } from "../../Utils/fetchApi";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
-import Card from "../Card/Card";
+import MovieList from "../MovieList/MovieList";
 
 const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -53,8 +53,8 @@ const Home = () => {
             </Link>
           ))}
         </Carousel>
+        <MovieList/>  
       </div>
-      {/* <Card/> */}
     </>
   );
 };
